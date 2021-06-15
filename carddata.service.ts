@@ -5,10 +5,10 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class CarddataService {
-  Url:string="https://restcountries.eu/rest/v2/all";
+  link:string="https://restcountries.eu/rest/v2/all";
 
-  constructor(private httpClient:HttpClient) { }
-  getcardData() {
-    return this.httpClient.get(this.Url)
+  constructor(private http:HttpClient) { }
+  getData() {
+    return this.http.get(this.link)
   }
 }
