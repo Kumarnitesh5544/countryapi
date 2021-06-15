@@ -1,21 +1,21 @@
-.namecolor{
+.name1{
     color:green;
     text-align: center;
     
 }
-.regioncolor{
+.region1{
     color:green;
     text-align: center;
 }
-.capitalcolor{
+.capital1{
     color: darkorchid;
     text-align: center;
 }
-.populationcolor{
+.population1{
     color: red;
     text-align: center;
 }
-.weatherfont{
+.weather1{
     margin-left: 90px;
 }
 
