@@ -9,11 +9,11 @@ import { CarddataService } from './carddata.service';
 })
 export class AppComponent implements OnInit {
   title = 'url';
-  cardData:any
-  constructor(private cardDataservice:CarddataService){}
+  value1:any
+  constructor(private card1:CarddataService){}
   ngOnInit(): void {
-    this.cardDataservice.getcardData().subscribe((response)=>{
-      this.cardData=response
+    this.card1.getData().subscribe((res)=>{
+      this.value1=res
     })
 
 }
