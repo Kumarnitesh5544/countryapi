@@ -1,0 +1,24 @@
+.namecolor{
+    color:green;
+    text-align: center;
+    
+}
+.regioncolor{
+    color:green;
+    text-align: center;
+}
+.capitalcolor{
+    color: darkorchid;
+    text-align: center;
+}
+.populationcolor{
+    color: red;
+    text-align: center;
+}
+.weatherfont{
+    margin-left: 90px;
+}
+
+.card{
+    margin: 4pc;
+}
