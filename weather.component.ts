@@ -7,7 +7,7 @@ import { Component, OnInit ,Input} from '@angular/core';
 })
 export class WeatherComponent implements OnInit {
 
-  @Input ('img') image=""
+  @Input ('image') image=""
   @Input ('name') name=""
   @Input('region') region=""
   @Input ('population') population=""
