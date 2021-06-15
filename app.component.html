@@ -1,9 +1,9 @@
 <div class=" bgcolor">
   <div class="row ">
-    <h1 class="headingcolor">This is RestCountries Data</h1>
-    <div class="col-lg-4" *ngFor="let item of cardData">
+    <h1 class="headingcolor"> RestCountries Data</h1>
+    <div class="col-lg-4" *ngFor="let data of value1">
   
-      <app-weather [img]="item.flag" [name]="item.name" [region]="item.region" [population]="item.population" [capital]="item.capital"></app-weather>
+      <app-weather [image]="data.flag" [name]="data.name" [region]="data.region" [population]="data.population" [capital]="data.capital"></app-weather>
       
       </div>
       
